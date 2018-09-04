@@ -1,3 +1,4 @@
-M, N, u, v, p, p✳, p′ = initialize()
+u_guess, v_guess, p, p_guess, p′, ρ, Δx, Δy, Δt, C_guess = initialize()
 
-pressure_correction(M, N)
+timesteps = 1
+test = pressure_correction(p_guess, u_guess, v_guess, ρ, timesteps, Δx, Δy, Δt, C_guess)
